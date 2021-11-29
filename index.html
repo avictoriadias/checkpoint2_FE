@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fortaleza</title>
+</head>
+<body>
+    <h1>Fortaleza</h1>
+
+    <form action="/registro" class=formulario method="POST">
+        <div class=dados>
+            <label for="nome">Nome:</label>
+            <input class="nome-form efeito-glow" type="text" name="nome" maxlength="100" placeholder="Digite seu nome" required> 
+            <p>
+            <label for="email">E-mail:</label>
+            <input class="nome-form efeito-glow" type="email" name="email" placeholder="Digite seu e-mail" required> 
+            <p>
+            <label for="telefone">Telefone:</label>
+            <input class="nome-form efeito-glow" type="tel" name="telefone" placeholder="+55 (__) _____-____" required>
+            <p>
+            <label for="data">Data de Nascimento:</label>
+            <input class="nome-form efeito-glow" type="date" name="data" required>
+            <br>
+        </div>
+        <br>
+        <div class=idade>
+            <b>Você é maior de idade?</b>
+            <br>
+            <input type="radio" name="idade" value="sim">Sim
+            <br>
+            <input type="radio" name="idade" value="nao">Não
+        </div>
+        <br>
+        <div class=pontoturistico>
+            <b>Escolha um ponto de interesse em Fortaleza:</b>
+            <br>
+            <input type="checkbox" name="a" value="sim"> Beach Park
+            <br>
+            <input type="checkbox" name="b" value="sim"> Canoa Quebrada
+            <br>
+            <input type="checkbox" name="c" value="sim"> Dragão do Mar
+            <br>
+            <input type="checkbox" name="d" value="sim"> Praia de Iracema
+            <br>
+            <input type="checkbox" name="e" value="sim"> Museu da Cachaça
+            <br>
+            <input type="checkbox" name="f" value="sim"> Theatro José de Alencar
+        </div>
+        <br>
+        <div class=categoria>
+            <b>Quais os seus interesses em Fortaleza (Opcional):</b>
+            <br>
+            <input type="checkbox" name="a" value="sim"> Turista
+            <br>
+            <input type="checkbox" name="b" value="sim"> Residente
+            <br>
+            <input type="checkbox" name="c" value="sim"> Estudante
+        </div>
+        <br>
+        <button class="botao" type="reset">Resetar</button>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+    <section>
+        <a href="https://www.beachpark.com.br/" target="_blank"> <img src="assets/beachpark.png" class="imagem efeito-glow2"> </a>
+        <a href="https://www.tripadvisor.com.br/Attraction_Review-g635974-d552354-Reviews-Praia_de_Canoa_Quebrada-Canoa_Quebrada_State_of_Ceara.html" target="_blank"><img src="assets/canoa-quebrada.png" class="imagem efeito-glow2"> </a> <br>
+        <a href="http://www.dragaodomar.org.br/" target="_blank"><img src="assets/dragao-do-mar.png" class="imagem efeito-glow2"> </a>
+        <a href="https://www.tripadvisor.com.br/Attraction_Review-g303293-d552353-Reviews-Iracema_Beach-Fortaleza_State_of_Ceara.html" target="_blank"><img src="assets/praia-iracema.png" class="imagem efeito-glow2"> </a><br>
+        <a href="https://site.ipark.tur.br/museu-da-cachaca/" target="_blank"><img src="assets/museu-da-cachaca.png" class="imagem efeito-glow2"> </a>        
+        <a href="https://theatrojosedealencar.secult.ce.gov.br/" target="_blank"><img src="assets/theatropng.jpg" class="imagem efeito-glow2"></a>
+    </section>
+</body>
+</html>
