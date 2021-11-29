@@ -39,6 +39,8 @@ label {
     padding: .75rem;
     box-sizing: border-box;
     float: right;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
 }
 
 .botao {
@@ -109,3 +111,76 @@ footer {
     padding: 180px 0 0;
     font-size: 12px;
 }
+
+.redes__links--instagram {
+  
+    padding: 5pt;
+    display: inline-block;   
+ }
+ 
+ .redes__links--facebook {
+    
+    padding: 5pt;
+    display: inline-block;
+ }
+ 
+ .redes__links--youtube{
+     
+     padding: 5pt;
+     display: inline-block;          
+ }
+ 
+ .redes__links--twitter{
+  
+     padding: 5pt;
+     display: inline-block;
+ }
+ 
+ .redes__links--facebook:hover{
+    
+     cursor: default;
+     transform: rotate(360deg);
+     transition: all 0.3s ease-in-out 0s;
+ }
+ 
+ .redes__links--instagram:hover{
+ 
+     cursor: default;
+     transform: rotate(360deg);
+     transition: all 0.3s ease-in-out 0s;
+ }
+ 
+ .redes__links--twitter:hover{
+ 
+     cursor: default;
+     transform: rotate(360deg);
+     transition: all 0.3s ease-in-out 0s;
+ }
+ 
+ .redes__links--youtube:hover{
+ 
+     cursor: default;
+     transform: rotate(360deg);
+     transition: all 0.3s ease-in-out 0s;
+ }
+ 
+ .titulo__formulario{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     line-height: 3.0;
+ }
+ 
+ .titulo__imagens{
+     font-family: 'montserrat', sans-serif;
+     font-weight: bold;
+     font-size: 15pt;
+     color: #f1f3fb;
+     padding: 0;
+   
+ }
+ 
+ .titulo__imagens--texto{
+     margin-left: 20%;
+     margin-bottom: -3%;
+ 
+ }
