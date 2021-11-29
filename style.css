@@ -102,3 +102,10 @@ label {
 .efeito-glow2:hover {
     transform: scale(1.5);
 }
+
+footer {
+    color: white;
+    text-align:left;
+    padding: 180px 0 0;
+    font-size: 12px;
+}
